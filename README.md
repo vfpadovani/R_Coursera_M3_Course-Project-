@@ -5,8 +5,8 @@ run_analysis.R does the following:
 
 1 - Used packages;
 2 - Verify then download and unzip data;
-3 - ;
-4 - ;
+3 - Load Data;
+4 - Extract mean and standard deviation;
 5 - ;
 6 - ;
 ...
