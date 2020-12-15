@@ -41,7 +41,9 @@ Test <- cbind(Test_labs, Test_subs, Test_set[mean_std])
 
 mean_std_labs <- grep(".mean|.std", feat[,2], value = T)
 mean_std_labs <- gsub("[()]", "", mean_std_labs)
-mean_std_labs <- gsub("-", "_", mean_std_labs)
+mean_std_labs <- gsub("-", "", mean_std_labs)
+mean_std_labs <- gsub("mean", "Mean", mean_std_labs)
+mean_std_labs <- gsub("std", "Std", mean_std_labs)
 
 names(Train) <- c("Activities", "Subjects", mean_std_labs)
 names(Test) <- c("Activities", "Subjects", mean_std_labs)
