@@ -74,7 +74,7 @@ tidy_ds <-
         Activities
     ) %>%
     summarise(
-        across("tBodyAcc_mean_X":"fBodyBodyGyroJerkMag_meanFreq", mean)
+        across("tBodyAccMeanX":"fBodyBodyGyroJerkMagMeanFreq", mean)
     )
 
 ## Save the tidy data set and load it 
