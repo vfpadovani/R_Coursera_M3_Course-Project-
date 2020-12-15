@@ -77,7 +77,7 @@ tidy_ds <-
 
 ## Save the tidy data set and load it 
 
-write.table(tidy_ds, "tidy_data.txt")
+write.table(tidy_ds, "tidy_data.txt", row.names = F)
 
 Tidy_data <- as_tibble(read.table("tidy_data.txt"))
 
