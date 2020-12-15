@@ -19,7 +19,7 @@ The data was downloaded from <https://d396qusza40orc.cloudfront.net/getdata%2Fpr
 
 ## The variables names 
 
-All the variables names (except from "Activities" and "Subjects") are descripted in the '*features_info.txt*' file. Wth adapted removal of "()" and switch of separation from "-" to "_".  
+All the variables names (except from "Activities" and "Subjects") are described in the '*features_info.txt*' file. Wth adapted removal of "()" and switch of separation from "-" to "_".  
 
 
 
